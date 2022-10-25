@@ -73,7 +73,7 @@ Test
 }
 
 @font-face { font-family: Merriweather; src: url('Merriweather-Black.ttf'); }
-@font-face { font-family: Merriweather-BlackItalic; src: url('Merriweather-BlackItalic.ttf'); }
+@font-face { font-family: Merriweather-Regular; src: url('Merriweather-Regular.ttf'); }
 @font-face { font-family: Merriweather-Light; src: url('Merriweather-Light.ttf'); }
 
 body {
@@ -101,6 +101,11 @@ hr:not([size]) {
   height: 1px;
 }
 
+.parts {
+font-family: Merriweather-Light;
+font-site: 2em;
+}
+
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 0;
   margin-bottom: 0.5rem;
@@ -124,11 +129,14 @@ h1, .h1 {
 }
 
 h2, .h2 {
-  font-size: calc(1.325rem + 0.9vw);
+  font-size: 3em;
+  font-family: Merrweather-Regular;
+  color: white;
 }
 @media (min-width: 1200px) {
   h2, .h2 {
     font-size: 2rem;
+    color: white;
   }
 }
 
@@ -3927,6 +3935,7 @@ textarea.form-control-lg {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  font-family: Merriweather-Light;
 }
 
 .nav-link {
@@ -3974,7 +3983,8 @@ textarea.form-control-lg {
   color: #000000;
   background-color: #fff;
   border-color: #dee2e6 #dee2e6 #fff;
-  font-weight: bold;
+  font-weight: lighter;
+  font-family: Merriweather-Light;
 }
 .nav-tabs .dropdown-menu {
   margin-top: -1px;
