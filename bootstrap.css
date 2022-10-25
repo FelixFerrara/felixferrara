@@ -72,6 +72,10 @@ Test
   }
 }
 
+@font-face { font-family: Merriweather; src: url('Merriweather-Black.ttf'); }
+@font-face { font-family: Merriweather-BlackItalic; src: url('Merriweather-BlackItalic.ttf'); }
+@font-face { font-family: Merriweather-Light; src: url('Merriweather-Light.ttf'); }
+
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
@@ -105,11 +109,14 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 }
 
 h1, .h1 {
-  font-size: calc(1.375rem + 1.5vw);
+  font-size: small;
+  font-family: Merriweather-Black;
+  color: white;
+  text-align: center;
 }
 @media (min-width: 1200px) {
   h1, .h1 {
-    font-size: 2.5rem;
+    font-size: 6.5rem;
   }
 }
 
