@@ -5552,10 +5552,9 @@ textarea.form-control-lg {
 }
 
 .modal {
-  position: fixed;
+  position: absolute;
   left: 0;
   top: 0;
-  padding-top: 45em;
   z-index: 1055;
   display: none;
   width: 100%;
@@ -5566,7 +5565,7 @@ textarea.form-control-lg {
 }
 
 .modal-dialog {
-  position: static;
+  position: absolute;
   width: 100%;
   margin: 0.5rem;
   pointer-events: none;
