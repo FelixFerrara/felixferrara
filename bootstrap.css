@@ -157,6 +157,11 @@ font-size: 3.5em;
     
     }
   }
+
+  .parts-text:hover {
+    color: silver;
+    cursor: crosshair;
+    }
   
   .parts-text-intro {
     font-family: Inter-ExtraLight;
@@ -4040,7 +4045,7 @@ textarea.form-control-lg {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
-  color: #000000;
+  color: white;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
@@ -4079,7 +4084,7 @@ textarea.form-control-lg {
 }
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
-  color: #000000;
+  color: white;
   background-color: #fff;
   border-color: #dee2e6 #dee2e6 #fff;
   font-weight: lighter;
@@ -4098,7 +4103,7 @@ textarea.form-control-lg {
 }
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
-  color: #000000;
+  color: white;
   background-color: #fff;
 }
 
