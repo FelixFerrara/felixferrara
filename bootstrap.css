@@ -72,9 +72,7 @@ Test
   }
 }
 
-@font-face { font-family: Merriweather; src: url('Merriweather-Black.ttf'); }
-@font-face { font-family: Merriweather-Italic; src: url('Merriweather-Italic.ttf'); }
-@font-face { font-family: Merriweather-Regular; src: url('Merriweather-Regular.ttf'); }
+@font-face { font-family: Merriweather; src: url('Merriweather-Black.ttf'); }}
 @font-face { font-family: Merriweather-Light; src: url('Merriweather-Light.ttf'); }
 @font-face { font-family: Inter-ExtraLight; src: url('Inter-ExtraLight.ttf'); }
 @font-face { font-family: Inter-Black; src: url('Inter-Black.ttf'); }
