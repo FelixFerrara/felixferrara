@@ -717,8 +717,9 @@ progress {
 }
 
 .img-fluid {
-  max-width: 100%;
-  height: auto;
+  max-width: 80%;
+  height: 80%;
+  text-align: right;
 }
 
 .img-thumbnail {
@@ -6097,6 +6098,7 @@ textarea.form-control-lg {
   position: relative;
   width: 100%;
   overflow: hidden;
+  text-align: center;
 }
 .carousel-inner::after {
   display: block;
